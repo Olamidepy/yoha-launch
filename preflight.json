@@ -1,0 +1,1704 @@
+{
+  "schemaVersion": "programmable.custom-launch-create-request.v3",
+  "graphBundleHash": "sha256:f4aff4b99175f062612f2005adfdd5da202b176e20d5a63545584307198bca6f",
+  "unboundGraphBundleHash": "sha256:254829f27d0fb067c31ab28b956d4514b78ad1c671845d3038df69e24575e7a2",
+  "projectMetadataHash": "sha256:114eddae83a84c2185b6e1e05807cf0950f1d184d4b00d4900677d8a3904a033",
+  "verificationBundleHash": "sha256:96d9010ecca2355e35916098547aae3d0b13b6695d6cef2deab3ffcfe007ff37",
+  "launchProfileHash": "sha256:8524be34f2fe06f837854edba747f1caa722da1b9a3240b3b3ecf2fc5e3ea7bb",
+  "launchIntentHash": "sha256:b288de25e21aad65151509055b6d89e8ee9ea4d446fb8b59c07ed7f2dcdd0983",
+  "productionLaunchAuthorized": true,
+  "exactSourceIncluded": true,
+  "predictions": [
+    {
+      "targetId": "initializer",
+      "applicantSalt": "0xa2d54eb4a965e4e61eda3474ffbd73b808436223359e1834e3ca3d5e3cd234ad",
+      "targetIdHash": "0xa2591e62d0a832f5ebea3417cc86d623c61c511e8db676f8779fe2eaf0521b47",
+      "effectiveSalt": "0xfea02db929e73c14f08fc8121ed6f302962bc4cd08f4ee5d830f5e282d71ecdc",
+      "initCodeHash": "0x629c67da1bc6654fd61a1e009d87210156ed76bacc110cd3e9a16ed2030c295b",
+      "predictedAddress": "0x2e11CF761b34301e451a322b8457f3783C8Bed39",
+      "resolvedConstructorArguments": "0x000000000000000000000000000000000004444c5dc75cb358380d2e3de08a90000000000000000000000000b012e4a8f2c5fc4e8e4faca9d5ad6fff13fba8870000000000000000000000005f4ec3df9cbd43714fe2740f5e3616155c5b84194b79b5c8aee6da0f7b393e8b53e6265ef7320a1d16184c65bd3841b5aa3d700d",
+      "resolvedInitializerCalldata": "0xfa5be037000000000000000000000000c5fef0555d70d77edadce2a7b2b1cf87863f60cc000000000000000000000000abdaab65d5b93cd3092d4ef92e090c41c691a4ce000000000000000000000000000000000000000000000000000000000002cf10000000000000000000000000a340b018f10bce89397b3aee4476cfe2f257d46d0000000000000000000000000000000000000000000012ef057d022be3920000"
+    },
+    {
+      "targetId": "token",
+      "applicantSalt": "0x879f43d7a1b355fedd0eb6d362fbdc4acf559c567af5e080fe95b2ceb20f4ed9",
+      "targetIdHash": "0xc8ab73f3a45b12119090a894967a4bc49ad24242a6024b1ce08c6a376c4e1549",
+      "effectiveSalt": "0xf2f78bb21af0c7229182a803a529df05dca30c769a871f6444e2fd135ed2c508",
+      "initCodeHash": "0x6dae7a4033fc4bced7515b8f810e9b73ad1813f4cecbdc91ff1e24e612aaada1",
+      "predictedAddress": "0xabDAaB65D5B93CD3092D4EF92E090C41c691A4cE",
+      "resolvedConstructorArguments": "0x00000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e00000000000000000000000000000000000000000033b2e3c9fd0803ce80000000000000000000000000000002e11cf761b34301e451a322b8457f3783c8bed39000000000000000000000000000000000004444c5dc75cb358380d2e3de08a900000000000000000000000000000000000000000000000000000000000000006596f68616b7500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004594f484100000000000000000000000000000000000000000000000000000000",
+      "resolvedInitializerCalldata": "0x"
+    },
+    {
+      "targetId": "hook",
+      "applicantSalt": "0x8f474b5b36bd0f40923fffbff53cd0804af3719a79d900830ae3aebb644d0baf",
+      "targetIdHash": "0x088dc6e849ba2d1b2e04a4a8214f100ef7590b15319021fff9a12c67b9752392",
+      "effectiveSalt": "0x4cebb2e5459d3526f4d7d63104566630ce823539ceaf52b50e0af7126d874067",
+      "initCodeHash": "0x48debafcb3b287aeddbd702ad081dbc22edb31ccd453e65d6d3267ab522ccc59",
+      "predictedAddress": "0xc5fef0555d70d77edadcE2a7B2b1cF87863f60Cc",
+      "resolvedConstructorArguments": "0x000000000000000000000000000000000004444c5dc75cb358380d2e3de08a90000000000000000000000000abdaab65d5b93cd3092d4ef92e090c41c691a4ce0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003c00000000000000000000000000000000000026cc39ad4bc39a5932ce4413befe0000000000000000000000002e11cf761b34301e451a322b8457f3783c8bed39000000000000000000000000a340b018f10bce89397b3aee4476cfe2f257d46d00000000000000000000000000000000000000000000000000000000000001d600000000000000000000000000000000000000000000000000000000000001d600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a340b018f10bce89397b3aee4476cfe2f257d46d000000000000000000000000d92a36b0000531ef3063ded4de20a0783308446c41ccd905c8e4de29ce9536ff49233b79e3085a0987d490664e703ee1e7b1dc4900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "resolvedInitializerCalldata": "0x"
+    }
+  ],
+  "requestSha256": "sha256:831ca8c60f8bcc850858ba5e1fc75a3715eb7303fc326025fc55677b79b8d712",
+  "byteLength": 802769,
+  "reproducedFromConfig": true,
+  "remoteValidation": true,
+  "apiVersion": "v3",
+  "capabilitiesHttpStatus": 200,
+  "preflightHttpStatus": 200,
+  "capabilities": {
+    "schemaVersion": "programmable.custom-launch-capabilities.v1",
+    "automaticPlatformFees": {
+      "policyId": "programmable.automatic-platform-fees.v2",
+      "status": "active",
+      "chainId": "1",
+      "teamWallet": "0x9F5856A3578Faba96A6E8Dfd9C10563A1E598f62",
+      "platformFeeBps": 30,
+      "buybackBps": 0,
+      "nativePayoutBps": 10000,
+      "activationTime": "2026-11-16T13:28:21.611Z",
+      "router": null
+    },
+    "apiVersion": "v3",
+    "serverTime": "2026-11-24T10:45:52.044Z",
+    "readinessUrl": "https://api.programmable.market/readyz",
+    "chain": {
+      "id": "1",
+      "name": "Ethereum Mainnet"
+    },
+    "profile": {
+      "profileId": "programmable.direct-native-hook-graph.v1",
+      "profileRevision": 3,
+      "profileVersion": "3.6.0",
+      "productionLaunchAuthorized": true
+    },
+    "routes": {
+      "create": "/v3/custom-launches",
+      "preflight": "/v3/custom-launches/preflight",
+      "status": "/v3/custom-launches/{launchId}",
+      "permitReissue": "/v3/custom-launches/{launchId}/permit-reissues",
+      "list": "/v3/custom-launches",
+      "finalizedMetadata": "/v3/finalized-custom-launches",
+      "capabilities": "/v3/capabilities"
+    },
+    "authentication": {
+      "create": "bearer-api-key",
+      "preflight": "bearer-api-key",
+      "status": "bearer-api-key",
+      "permitReissue": "bearer-api-key",
+      "finalizedMetadata": "none",
+      "capabilities": "none",
+      "requiredScopes": [
+        "custom-launch:create",
+        "custom-launch:read"
+      ],
+      "apiKeyIsWallet": false
+    },
+    "partnerCredentials": {
+      "schemaVersion": "programmable.partner-public-contract.v1",
+      "status": "live",
+      "environmentVariable": "PROGRAMMABLE_API_KEY",
+      "credentialKinds": [
+        "root",
+        "subkey"
+      ],
+      "canonicalV3LaunchRoutes": true,
+      "launchScopes": [
+        "custom-launch:create",
+        "custom-launch:read"
+      ],
+      "rootOnlyScope": "partner-subkeys:manage",
+      "subkeyAdminRoutes": [
+        "GET /v1/partner/subkeys",
+        "POST /v1/partner/subkeys",
+        "POST /v1/partner/subkeys/{subkeyId}/rotate",
+        "DELETE /v1/partner/subkeys/{subkeyId}"
+      ],
+      "maximumSubkeyDepth": 1,
+      "subkeyScopesAndBudgetsCannotExceedRoot": true,
+      "subkeyExpiryCannotExceedRoot": true,
+      "permitReissueDispositionCredentialKind": "wallet-only",
+      "metadataPolicySameAsWalletKeys": true,
+      "controllerWallet": {
+        "walletKey": "must-equal-key-wallet-binding",
+        "partnerCredential": "selected-by-exact-request",
+        "mustReviewSignAndBroadcast": true
+      },
+      "launchHistoryVisibility": {
+        "root": "all-partner-attributed-root-and-subkey-launches",
+        "subkey": "stable-subkey-lineage-only",
+        "rootAggregatesSubkeys": true,
+        "rotationPreservesLineageHistory": true,
+        "newDistinctSubkeyStartsIsolatedLineage": true,
+        "revokedCredentialCanAuthenticate": false
+      },
+      "secretDelivery": "issue-and-rotation-response-only",
+      "callerSuppliedAttributionAccepted": false,
+      "attributionSource": "authenticated-partner-api-key",
+      "attributionIsVerificationOrSafetyClaim": false,
+      "walletSigningAuthority": false,
+      "walletBroadcastAuthority": false,
+      "gateBypassAuthority": false,
+      "adminProvisioning": {
+        "authentication": "website-bff-assertion-v2",
+        "authorization": "server-configured-privy-user-wallet-pair-allowlist",
+        "clientMaySelfAuthorize": false
+      }
+    },
+    "preflight": {
+      "quotaConsumed": false,
+      "nonceAllocated": false,
+      "persisted": false,
+      "walletSignatureProduced": false,
+      "transactionBroadcast": false,
+      "exactProductionAdmissionEngine": true
+    },
+    "onsiteTrading": {
+      "status": "active",
+      "implementation": "ethereum-stamped",
+      "statusScope": "implementation-availability",
+      "discoveryIsExecutionProof": false,
+      "legacyDescriptorRequired": false,
+      "routes": {
+        "tokenLookup": "https://programmable.market/api/swap/token?chain=1&address={token}",
+        "prepare": "https://programmable.market/api/swap/ethereum/prepare",
+        "prepareMethod": "POST",
+        "supportedSides": [
+          "buy",
+          "sell"
+        ]
+      },
+      "reasonCode": null,
+      "legacyDescriptorWorker": {
+        "state": "disabled",
+        "reasonCode": "PROVIDER_IDENTITY_CONFIG_MISSING",
+        "descriptorPublicationActive": false
+      },
+      "workerStatusScope": "legacy-finalized-descriptor-worker",
+      "workerState": "disabled",
+      "descriptorPublicationActive": false,
+      "providerIdentityConfiguration": [],
+      "providerIdentityConfigurationIsExecutionProof": false,
+      "historicalNumericStateProbe": {
+        "observed": false,
+        "blockNumber": null,
+        "blockHash": null,
+        "archiveCapabilityClaim": false
+      },
+      "universalRouterExecutionProof": "required-per-wallet-transaction",
+      "quoterEvidenceCanActivateDescriptor": false,
+      "launchFinalityDependency": false,
+      "finalizedIdentityIndexingDependency": false
+    },
+    "mandatoryServerGates": [
+      "exact-source-compiler-graph-binding",
+      "static-hard-block-policy",
+      "platform-admission-receipt",
+      "exact-router-simulation"
+    ],
+    "profile34Activation": {
+      "profileVersion": "3.4.0",
+      "active": false,
+      "productionLaunchAuthorized": false,
+      "requiredRunnerReadback": "configured-signed-runner-and-frozen-fee-observation-abi",
+      "requiredSettlementDataflowReadback": "configured-custom-api-authority-v2-exact-route-closure-receipt",
+      "mandatoryServerGates": [
+        "exact-source-compiler-graph-binding",
+        "static-hard-block-policy",
+        "platform-admission-receipt",
+        "exact-settlement-dataflow-closure",
+        "exact-router-simulation",
+        "verified-behavior-evidence",
+        "verified-exact-ten-bps-fee-path"
+      ]
+    },
+    "profile35Activation": {
+      "profileVersion": "3.5.0",
+      "active": false,
+      "productionLaunchAuthorized": false,
+      "profileArtifactSha256": "sha256:acbc80221f1db9e946c69a1755ef9980afa33c0f60b152e3ba76cf377d7f1703",
+      "releaseBindingSha256": "sha256:6aeb8f26c2251e3492dbeb6eb2daab8e6e966ee40da7647d4579cce6be978ea1",
+      "releaseModule": {
+        "profileVersion": "3.5.0",
+        "schemaVersion": "programmable.settlement-fee-observation-binding.v2",
+        "observationDomain": "programmable.settlement-fee-observation-binding.v2",
+        "moduleId": "programmable:settlement-fee-vault:v2",
+        "releaseBindingSha256": "sha256:6aeb8f26c2251e3492dbeb6eb2daab8e6e966ee40da7647d4579cce6be978ea1",
+        "sourceSha256": "sha256:58cf9561f5fdd51c3a158fbe9ed7c73c5bdf10dbcc7d59a5e5c074e3cd4c0320",
+        "creationSha256": "sha256:f494403cb004547c6a8ae27d124c0cd695b76c45b7389d8c7751fd1871de208e",
+        "creationCodeHash": "0x51a9b3fd49454a6f6f9913186e0d52e74f6028f5d5f7567035eba579731a38f2",
+        "runtimeSha256": "sha256:f1b57e62b9f39f5f016882a33f90c8f404f43417542a982007bf6fd0c4a8b84c",
+        "runtimeCodeHash": "0x6dfc6731166326aebbe152c67fa1560c164239de00f6033b0ba8ce52047a7d98",
+        "artifactFileSha256": "sha256:49df5f5471db88cb0a03f862b796d171d1eb15d87ff5b5f23881870f77326f69",
+        "compilerInputSha256": "sha256:0b7c83b8e4ac01499e7967ac44ca711fa9e7192f0db5dd9ab5ee58433cbad7d0",
+        "ratePpm": "3000",
+        "claimAuthority": "0x4957f49620AFf3Adbbe8195a4f633E49cc93376c",
+        "bindRouteSelector": "0x8ce2a828",
+        "reciprocalGetterSelector": "0x0fb5c7c9"
+      },
+      "activationReceiptSha256": null,
+      "authority": "existing-configured-settlement-evidence-authority",
+      "independentRuntimeReadbackRequired": true,
+      "exactSettlementDataflowClosureRequired": true,
+      "candidateRouteCoverageFromRunner": false,
+      "customHookAllowlistRequired": false,
+      "directHttpSupported": true,
+      "publicCliRequired": false,
+      "publicCliCandidateVersion": "4.1.3"
+    },
+    "profile36Release": {
+      "profileVersion": "3.6.0",
+      "selected": true,
+      "productionLaunchAuthorized": true,
+      "profileArtifactSha256": "sha256:a046987b4ea4bf288a69557bf70d2543e61899d3f31327a0f179ca4ce927d9d4",
+      "enforcementBoundary": {
+        "chainId": "1",
+        "blockNumber": "26142122",
+        "blockHash": "0x823e99cec0bb5b6011afc44891a1fd897b7efcbd83658cb9bc176dc35f5f86a3"
+      },
+      "selectionIsFeeExecutionProof": false,
+      "websiteSupport": {
+        "enforcementBoundary": {
+          "blockHash": "0x823e99cec0bb5b6011afc44891a1fd897b7efcbd83658cb9bc176dc35f5f86a3",
+          "blockNumber": "26142122",
+          "chainId": "1"
+        },
+        "evidenceScope": "read-only-independent-provider-simulation",
+        "native30WaiverRequiresExactRuntimeAndTradeProof": true,
+        "policyHash": "sha256:14fa8dff2aca726c5b404b41f1b11fadb1456d3057e25ee33379319b26952b58",
+        "positiveValueFeeEvidenceSha256": "sha256:f78310b06fc635d0158862deec3061ed5f2ebff813b75be42997af8bd7759e23",
+        "postBoundaryMissingPolicyDisposition": "preparation-unavailable",
+        "profileArtifactSha256": "sha256:a046987b4ea4bf288a69557bf70d2543e61899d3f31327a0f179ca4ce927d9d4",
+        "schemaVersion": "programmable.ethereum-profile36-website-support.v1",
+        "status": "deployed-and-read-back",
+        "websiteReadbackEvidenceSha256": "sha256:2cd86c789a543883e0b3780f9da2509d930261361b698b7b63d0790f3dde355e",
+        "websiteSourceCommit": "c1d5e6ed3aef160dde41d5614602a04bb22492bc",
+        "websiteSourceTree": "8050414ea1e63076994522fdb2c0cdfad6f99847"
+      },
+      "staticAdmissionBaseline": "3.3.0",
+      "customHookAllowlistRequired": false,
+      "mandatoryCanonicalFeeVaultTarget": false,
+      "exactSettlementDataflowClosureRequired": false,
+      "websiteBoundarySupportMustPrecedeSelection": true
+    },
+    "currentTradeFeePolicy": {
+      "policyVersion": "programmable.ethereum-routed-native-fee.v4",
+      "rateBps": 30,
+      "ratePercent": "0.30%",
+      "appliesTo": "programmable-routed-ethereum-trades",
+      "mode": "programmable_routed",
+      "routedRateBps": 30,
+      "basis": "gross-native-by-side",
+      "buyBasis": "funded-native-input",
+      "sellBasis": "gross-native-output-credit",
+      "currency": "native-ETH",
+      "rounding": "floor-once-per-swap",
+      "recipient": "0x9F5856A3578Faba96A6E8Dfd9C10563A1E598f62",
+      "collection": "atomic-native-transfer-in-swap",
+      "historicalSignedFeeObligations": "preserved",
+      "externalTradeFeeGuaranteed": false
+    },
+    "programmableTradeFeePolicy": {
+      "policyHash": "sha256:14fa8dff2aca726c5b404b41f1b11fadb1456d3057e25ee33379319b26952b58",
+      "policy": {
+        "schemaVersion": "programmable.ethereum-programmable-trade-fee-policy.v1",
+        "policyVersion": "programmable.ethereum-routed-native-fee.v4",
+        "scope": "programmable-routed-ethereum-trades",
+        "ratePpm": "3000",
+        "rateDenominator": "1000000",
+        "rateBps": 30,
+        "modeSelection": "server-exact-runtime-and-trade-proof",
+        "defaultCollection": {
+          "mode": "programmable_routed",
+          "routedRateBps": 30,
+          "basis": "gross-native-by-side",
+          "buyBasis": "funded-native-input",
+          "sellBasis": "gross-native-output-credit",
+          "currency": "native-ETH",
+          "rounding": "floor-once-per-swap",
+          "recipient": "0x9F5856A3578Faba96A6E8Dfd9C10563A1E598f62",
+          "collection": "atomic-native-transfer-in-swap"
+        },
+        "native30Waiver": {
+          "mode": "pool_enforced_native30",
+          "routedRateBps": 0,
+          "basis": "authenticated-gross-native",
+          "currency": "native-ETH",
+          "rounding": "ceil-per-trade",
+          "recipient": "0x9F5856A3578Faba96A6E8Dfd9C10563A1E598f62",
+          "hook": "AutomaticProtectedNative30HookV1",
+          "vault": "AutomaticNativeFeeVaultV1",
+          "proof": "exact-runtime-and-trade-accrual",
+          "applicantAssertionsAccepted": false
+        },
+        "launchAdmissionEstablishesFeeCollection": false,
+        "externalTradeFeeGuaranteed": false,
+        "historicalSignedFeeObligations": "preserved"
+      },
+      "collectionStatus": "required-per-trade-evidence",
+      "launchAdmissionEstablishesFeeCollection": false
+    },
+    "graph": {
+      "minimumTargets": 3,
+      "maximumTargets": 16,
+      "directCreate2Targets": true,
+      "onePrimaryToken": true,
+      "onePrimaryHook": true,
+      "onePrimaryPool": true,
+      "constructorAddressLocators": true,
+      "initializerAddressLocators": true,
+      "initializerCyclesSupported": true,
+      "constructorCyclesSupported": false
+    },
+    "compiler": {
+      "language": "Solidity",
+      "version": "0.8.26",
+      "exactBuild": "0.8.26+commit.8a97fa7a",
+      "admittedBuilds": [
+        "0.8.26+commit.8a97fa7a"
+      ],
+      "additionalBuildsDisposition": "unsupported",
+      "additionalBuildsReasonCode": "SERVER_SOLC_BUILD_NOT_INSTALLED",
+      "exactStandardJsonRequired": true,
+      "exactSourceBytesRequired": true,
+      "exactCreationAndRuntimeBindingRequired": true
+    },
+    "requestProfiles": {
+      "current": "3.6.0",
+      "parseableExactVersions": [
+        "2.0.0",
+        "3.0.0",
+        "3.1.0",
+        "3.2.0",
+        "3.3.0",
+        "3.4.0",
+        "3.5.0",
+        "3.6.0"
+      ],
+      "freshSubmissionExactVersions": [
+        "3.6.0"
+      ],
+      "legacyReadableAndExactRetryableVersions": [
+        "2.0.0",
+        "3.0.0",
+        "3.1.0",
+        "3.2.0",
+        "3.3.0",
+        "3.4.0",
+        "3.5.0"
+      ],
+      "newProfileVersionsAreImplicitlyAccepted": false,
+      "unsupportedVersionReasonCode": "PROFILE_VERSION_NOT_ADMITTED"
+    },
+    "architectureSupport": {
+      "schemaVersion": "programmable.custom-launch-architecture-support.v1",
+      "deployedRouterGeneration": "ProgrammableLaunchStampRouterV1",
+      "deployedGraphFactoryGeneration": "ProgrammableCreate2GraphDeployerV1",
+      "capabilities": {
+        "newDirectCreate2Targets": {
+          "disposition": "supported",
+          "minimum": 3,
+          "maximum": 16,
+          "reasonCode": "GRAPH_FACTORY_V1_DIRECT_TARGETS"
+        },
+        "additionalNonPrimaryContracts": {
+          "disposition": "supported_with_constraints",
+          "maximumTotalGraphTargets": 16,
+          "stampedComponentKind": "other",
+          "reasonCode": "ROUTER_V1_OTHER_COMPONENTS_MUST_BE_NEW_EXCLUSIVE_FACTORY_OUTPUTS"
+        },
+        "existingPrincipalReferences": {
+          "disposition": "supported_with_constraints",
+          "supportedBindings": [
+            "exact-constructor-arguments",
+            "exact-initializer-calldata",
+            "exact-compiler-runtime-immutables"
+          ],
+          "becomesGraphTarget": false,
+          "becomesStampedComponent": false,
+          "platformSemanticAuthorityClaim": false,
+          "reasonCode": "EXISTING_ADDRESS_REFERENCE_IS_EXACT_BYTES_NOT_A_STAMPED_TARGET"
+        },
+        "existingDeployedGraphTargets": {
+          "disposition": "unsupported",
+          "reasonCode": "ROUTER_V1_COMPONENTS_MUST_MATCH_NEW_FACTORY_OUTPUTS"
+        },
+        "optionalNoPoolStamping": {
+          "disposition": "unsupported",
+          "reasonCode": "ROUTER_V1_REQUIRES_ONE_NEWLY_INITIALIZED_POOL"
+        },
+        "multiplePrimaryTokens": {
+          "disposition": "unsupported",
+          "reasonCode": "ROUTER_V1_STAMP_REQUEST_HAS_ONE_TOKEN"
+        },
+        "multiplePrimaryHooks": {
+          "disposition": "unsupported",
+          "reasonCode": "ROUTER_V1_STAMP_REQUEST_HAS_ONE_HOOK"
+        },
+        "multiplePrimaryPools": {
+          "disposition": "unsupported",
+          "reasonCode": "ROUTER_V1_STAMP_REQUEST_HAS_ONE_POOL_KEY"
+        },
+        "existingExternalQuoteCurrency": {
+          "disposition": "supported_with_constraints",
+          "exactPoolKeyBindingRequired": true,
+          "reasonCode": "PROFILE_SUPPORTS_NATIVE_OR_EXISTING_ERC20_QUOTE_CURRENCY"
+        },
+        "nonSolidityCompilerProfiles": {
+          "disposition": "unsupported",
+          "reasonCode": "NO_EXACT_SERVER_COMPILER_BUILD"
+        }
+      },
+      "universalCompatibilityClaim": false
+    },
+    "permitReissue": {
+      "schemaVersion": "programmable.custom-launch-permit-reissue-capability.v1",
+      "endpoint": "/v3/custom-launches/{launchId}/permit-reissues",
+      "requestSchemaVersion": "programmable.custom-launch-permit-reissue-request.v1",
+      "dispositionSchemaVersion": "programmable.custom-launch-permit-reissue-disposition.v1",
+      "disposition": "unsupported",
+      "httpStatus": 409,
+      "reasonCode": "ROUTER_V1_PERMIT_NONCE_IS_CREATE2_ROUTE_NONCE",
+      "authenticationScope": "custom-launch:create",
+      "idempotencyKeyRequired": true,
+      "resourceBindingRequired": [
+        "launchId",
+        "expectedRequestHash",
+        "expectedLaunchIntentHash"
+      ],
+      "noReplacementNonceReserved": true,
+      "noReplacementPermitIssued": true,
+      "oldPermitStateRequired": "expired-and-unconsumed",
+      "oldPermitInvalidation": "original-signature-expired-by-signed-deadline",
+      "currentReleaseRecovery": "repack-and-submit-new-launch-request",
+      "futureContractRequirements": [
+        "separate-permit-nonce-from-graph-route-nonce",
+        "resource-bound-permit-supersession",
+        "cross-generation-nonce-replay-protection",
+        "old-permit-digest-invalidation",
+        "exact-replacement-transaction-simulation"
+      ]
+    },
+    "projectMetadata": {
+      "schemaVersion": "programmable.project-metadata.v1",
+      "inputSchemaVersion": "programmable.project-metadata-input.v1",
+      "requiredForProfileVersion": "3.6.0",
+      "requiredForProfileVersions": [
+        "3.2.0",
+        "3.3.0",
+        "3.4.0",
+        "3.5.0",
+        "3.6.0"
+      ],
+      "strictMetadataProfileVersions": [
+        "3.3.0",
+        "3.4.0",
+        "3.5.0",
+        "3.6.0"
+      ],
+      "strictNewPackPolicyProfileVersion": "3.6.0",
+      "enforcement": {
+        "routes": [
+          "POST /v3/custom-launches/preflight",
+          "POST /v3/custom-launches"
+        ],
+        "serverSide": true,
+        "clientBypassAccepted": false,
+        "failureCode": "PROJECT_METADATA_POLICY_INVALID",
+        "legacyProfilesNotRetrofitted": true
+      },
+      "profilePolicy": {
+        "schemaVersion": "programmable.project-metadata-policy.v1",
+        "descriptionMinimumUtf8Bytes": 20,
+        "descriptionMaximumUtf8Bytes": 4096,
+        "descriptionMinimumUnicodeLettersOrNumbers": 8,
+        "imageRequired": true,
+        "imageReceiptSourceManifestBindingRequired": true,
+        "imageMediaTypes": [
+          "image/png",
+          "image/jpeg",
+          "image/webp",
+          "image/gif"
+        ],
+        "linksMaximumCount": 32,
+        "requiredLinkKinds": [
+          "website",
+          "x"
+        ],
+        "exactlyOneRequiredLinkPerKind": true,
+        "websiteUriPolicy": "canonical-public-credential-free-https",
+        "xUriPattern": "^https://x\\.com/[A-Za-z0-9_]{1,64}$"
+      },
+      "legacyWithoutMetadataProfileVersions": [
+        "2.0.0",
+        "3.0.0",
+        "3.1.0"
+      ],
+      "legacyMetadataProfileVersions": [
+        "3.2.0"
+      ],
+      "requiredFields": [
+        "token.name",
+        "token.symbol",
+        "presentation.description",
+        "presentation.image",
+        "presentation.links"
+      ],
+      "imageMayBeNull": false,
+      "legacyImageMayBeNullProfileVersions": [
+        "3.2.0"
+      ],
+      "description": {
+        "minimumUtf8Bytes": 20,
+        "maximumUtf8Bytes": 4096,
+        "minimumUnicodeLettersOrNumbers": 8,
+        "nfcAndTrimmedRequired": true
+      },
+      "image": {
+        "required": true,
+        "exactContentSha256Required": true,
+        "exactByteLengthRequired": true,
+        "sourceManifestFileBindingRequired": true,
+        "mediaTypes": [
+          "image/png",
+          "image/jpeg",
+          "image/webp",
+          "image/gif"
+        ]
+      },
+      "maximumLinks": 32,
+      "exactlyOneRequiredLinkPerKind": true,
+      "requiredLinkKinds": [
+        "website",
+        "x"
+      ],
+      "websiteUriPolicy": "canonical-public-credential-free-https",
+      "xUriPattern": "^https://x\\.com/[A-Za-z0-9_]{1,64}$",
+      "linkKinds": [
+        "website",
+        "documentation",
+        "x",
+        "telegram",
+        "discord",
+        "github",
+        "other"
+      ],
+      "projectMetadataHashDomain": "programmable.project-metadata.v1",
+      "graphBundleHashBindingDomain": "programmable.custom-graph-project-metadata.v1",
+      "postDeploymentTokenReadbackRequired": true
+    },
+    "hookPermissions": {
+      "allFourteenStructurallySupported": true,
+      "minimumMask": 0,
+      "maximumMask": 16383,
+      "addressMaskMustMatch": true,
+      "returnDeltaRequiresBaseCallback": true
+    },
+    "fundingModes": [
+      "none",
+      "wallet-transaction-value",
+      "eip-3009-receive-with-authorization"
+    ],
+    "liquidityModels": [
+      "external-concentrated-liquidity",
+      "launch-seeded-concentrated-liquidity",
+      "hook-inventory-custom-accounting"
+    ],
+    "evidenceTiers": [
+      "launch_mechanics_verified",
+      "standard_swap_compatible",
+      "advanced_custom_accounting",
+      "governed_external_trust"
+    ],
+    "productTruthAxes": [
+      "deployment",
+      "trading",
+      "platform_fee_evidence",
+      "source_verification",
+      "indexing",
+      "featured"
+    ],
+    "productTruthAxisSemantics": {
+      "deployment": "Static eligibility and onchain execution are separate states.",
+      "trading": "Trading is unverified until exact runtime behavior vectors pass.",
+      "platform_fee_evidence": "Launch admission does not prove the declared 30 bps fee. The first-party native fee requires exact per-trade collection evidence; external trades are not generally guaranteed.",
+      "source_verification": "Source is verified only after durable provider corroboration and the protected hosted-build source authority both pass.",
+      "indexing": "Finalized Router identity is indexed independently of trading and fee evidence.",
+      "featured": "Featured placement requires separate product evidence and policy."
+    },
+    "behaviorEvidence": {
+      "runnerConfigured": false,
+      "executionMode": "not_configured",
+      "requiredForProfileVersion": "3.4.0",
+      "requiredPlatformFeeConformanceStatus": "verified",
+      "nonFeeVectorsMayRemainUnverified": true,
+      "configurationIsExecutionEvidence": false,
+      "walletHandoffRequiresVerifiedEvidence": false,
+      "notConfiguredDisposition": "claims_remain_unverified",
+      "unavailableDisposition": "claims_remain_unverified",
+      "executedFeeFailureDisposition": "blocks_wallet_handoff",
+      "executedHardInvariantFailureDisposition": "blocks_wallet_handoff",
+      "feeBehaviorClaim": false,
+      "vectorSetVersion": "1.2.0",
+      "maximumConfiguredRunnerAttempts": 3,
+      "evidenceAuthority": "platform-runtime-executor",
+      "signedExecutionReceiptRequired": true
+    },
+    "settlementDataflowClosure": {
+      "configured": false,
+      "evidenceAuthority": "programmable-custom-launch-api-settlement-authority",
+      "receiptSchemaVersion": "programmable.custom-api-settlement-dataflow-receipt.v2",
+      "authorityRequestSchemaVersion": "programmable.custom-api-settlement-dataflow-authority-request.v2",
+      "exactLaunchGraphAndRouteBindingRequired": true,
+      "completeValueFlowInventoryRequired": true,
+      "sourceDecisionReceiptRequired": false,
+      "applicationOrGithubIntakeRequired": false,
+      "independentReplayRequired": true,
+      "clientAssertionsAccepted": false,
+      "runnerNoBypassScope": "canonical-vault-entrypoints-only",
+      "candidateRouteCoverageComesFromRunner": false,
+      "walletHandoffRequiresClosure": false
+    },
+    "behaviorScenarioInputs": {
+      "schemaVersion": "programmable.custom-launch-behavior-scenario-inputs.v1",
+      "requiredForProfileVersion": "3.4.0",
+      "requestField": "behaviorScenarioInputs",
+      "hashField": "behaviorScenarioInputsHash",
+      "minimumSteps": 1,
+      "maximumSteps": 128,
+      "maximumCalldataBytesPerStep": 65536,
+      "maximumHookDataBytesPerStep": 16384,
+      "maximumAggregateBytes": 1048576,
+      "declarativeOnly": true,
+      "clientAssertionsAccepted": false,
+      "clientRunnerConfigurationAccepted": false,
+      "serverOwnsVectorCoverageAndVerdicts": true,
+      "legacyProfilesNotRetrofitted": true
+    },
+    "hardSafetyInvariants": [
+      "exact-source-runtime-request-binding",
+      "hook-address-permission-mask-match",
+      "valid-return-delta-permission-dependencies",
+      "mainnet-pool-manager-graph-binding-and-bounded-callback-authentication",
+      "authenticated-enabled-callbacks",
+      "complete-enabled-callback-implementation",
+      "no-direct-callcode-or-selfdestruct-in-submitted-graph-target-runtimes",
+      "balanced-pool-manager-deltas-when-executed",
+      "exact-router-launch-simulation",
+      "no-wallet-signing-or-broadcast-by-api"
+    ],
+    "advancedFeaturesRequireEvidence": [
+      "child-contract-factories",
+      "return-delta-custom-accounting",
+      "custom-curves-and-async-swaps",
+      "liquidity-removal-gating-or-return-deltas",
+      "external-oracle-or-protocol-calls",
+      "pause-mint-transfer-or-compliance-controls",
+      "governed-upgrades-or-delegation",
+      "nonstandard-token-accounting"
+    ],
+    "feePolicy": {
+      "programmableHundredthsOfBip": "3000",
+      "denominator": "1000000",
+      "requestBindingRequired": true,
+      "behaviorProofRequiredForRoutableClaim": true,
+      "tenBpsClaimRequiresExactPerLaunchVerifiedFeePathEvidence": true,
+      "thirtyBpsClaimRequiresExactPerLaunchVerifiedFeePathEvidence": true,
+      "immutableFeePathRequired": true,
+      "requiredForProfileVersion": "3.6.0",
+      "releaseModule": null,
+      "genericClaimingLive": false,
+      "buybackManagementLive": false
+    },
+    "walletHandoffBaseUrl": "https://programmable.market/developers/api-keys",
+    "supportUrl": "https://discord.com/invite/programmable",
+    "safetyClaim": false,
+    "auditClaim": false,
+    "universalCompatibilityClaim": false
+  },
+  "preflight": {
+    "schemaVersion": "programmable.custom-launch-preflight.v1",
+    "requestHash": "sha256:41e3f5c2cc84277ccf13a0a2e8b350a19785252051c994ef6c91d997918669dd",
+    "profileRevision": 3,
+    "serverTime": "2026-11-24T10:45:54.166Z",
+    "disposition": "needs_evidence",
+    "launchEligibility": {
+      "deployable": true,
+      "routable": false,
+      "featured": false
+    },
+    "evidenceTier": "governed_external_trust",
+    "riskClassification": {
+      "schemaVersion": "programmable.platform-admission-risk-classification.v3",
+      "classifierVersion": "1.1.0",
+      "evidenceAuthority": "deterministic-static-classification",
+      "disposition": "needs_evidence",
+      "launchEligibility": {
+        "deployable": true,
+        "routable": false,
+        "featured": false,
+        "basis": "static-admission-only"
+      },
+      "evidenceTier": "governed_external_trust",
+      "evidenceTierStatus": "required",
+      "hardBlockFindingCodes": [],
+      "needsEvidenceFindingCodes": [
+        "SOURCE_EXTERNAL_DEPENDENCY_SURFACE",
+        "SOURCE_LIQUIDITY_LOCK_OR_CUSTODY_SURFACE",
+        "SOURCE_MUTABLE_TAX_OR_FEE_SURFACE",
+        "V4_CALLBACK_AUTHENTICATION_MISSING",
+        "V4_CALLBACK_AUTHENTICATION_REVIEW_REQUIRED"
+      ],
+      "requiredEvidence": [
+        "callback.pool-manager-authentication",
+        "custom-accounting.delta-solvency-backing-refund-withdrawal",
+        "external-dependency.codehash-liveness-staleness-and-trust",
+        "governance.authority-bounds-delay-and-upgrade-path",
+        "launch.router-simulation",
+        "liquidity.declared-lifecycle-and-withdrawal",
+        "liquidity.lock-release-and-custody",
+        "platform-fee.ten-bps-no-bypass-no-overcharge-claim-isolation",
+        "swap.four-quadrant-multi-size",
+        "swap.second-user-and-time"
+      ],
+      "behaviorEvidenceStatus": "not_executed",
+      "approvalAuthority": false,
+      "safetyClaim": false,
+      "feeBehaviorClaim": false,
+      "limitations": [
+        "This classification is static admission evidence only; it does not prove deployment, routing, swap behavior, liquidity, solvency, or fee behavior.",
+        "A deployable eligibility value means no enumerated hard static blocker was found; it does not mean a launch transaction executed or succeeded.",
+        "Routable and featured remain false until exact executable evidence verifies the applicable behavior and fee vectors.",
+        "Unbalanced deltas, launch reverts, fee bypass, overcharge, and claim isolation are runtime conditions and are not claimed by this classifier."
+      ]
+    },
+    "behaviorEvidence": {
+      "schemaVersion": "programmable.custom-launch-behavior-summary.v1",
+      "subjectSha256": "sha256:b288de25e21aad65151509055b6d89e8ee9ea4d446fb8b59c07ed7f2dcdd0983",
+      "requirements": {
+        "schemaVersion": "programmable.custom-launch-behavior-requirements.v1",
+        "vectorSetVersion": "1.2.0",
+        "riskClass": "advanced-custom-accounting",
+        "hookPermissionMask": 8396,
+        "liquidityModel": "launch-seeded-concentrated-liquidity",
+        "vectors": [
+          {
+            "vectorId": "swap.zero-for-one.exact-input.multi-size",
+            "category": "swap",
+            "requirement": "required",
+            "claimAxes": [
+              "routability"
+            ]
+          },
+          {
+            "vectorId": "swap.zero-for-one.exact-output.multi-size",
+            "category": "swap",
+            "requirement": "required",
+            "claimAxes": [
+              "routability"
+            ]
+          },
+          {
+            "vectorId": "swap.one-for-zero.exact-input.multi-size",
+            "category": "swap",
+            "requirement": "required",
+            "claimAxes": [
+              "routability"
+            ]
+          },
+          {
+            "vectorId": "swap.one-for-zero.exact-output.multi-size",
+            "category": "swap",
+            "requirement": "required",
+            "claimAxes": [
+              "routability"
+            ]
+          },
+          {
+            "vectorId": "swap.second-user",
+            "category": "swap",
+            "requirement": "required",
+            "claimAxes": [
+              "routability"
+            ]
+          },
+          {
+            "vectorId": "swap.time-advance",
+            "category": "swap",
+            "requirement": "required",
+            "claimAxes": [
+              "routability"
+            ]
+          },
+          {
+            "vectorId": "liquidity.lifecycle.add-remove-withdraw",
+            "category": "liquidity",
+            "requirement": "required",
+            "claimAxes": [
+              "deployability-hard-invariant",
+              "liquidity-conformance",
+              "routability"
+            ]
+          },
+          {
+            "vectorId": "callback.permission-mask-and-declaration",
+            "category": "callback-authentication",
+            "requirement": "required",
+            "claimAxes": [
+              "deployability-hard-invariant",
+              "routability"
+            ]
+          },
+          {
+            "vectorId": "callback.enabled-entrypoints-and-selectors",
+            "category": "callback-authentication",
+            "requirement": "required",
+            "claimAxes": [
+              "deployability-hard-invariant",
+              "routability"
+            ]
+          },
+          {
+            "vectorId": "callback.canonical-pool-manager-only",
+            "category": "callback-authentication",
+            "requirement": "required",
+            "claimAxes": [
+              "deployability-hard-invariant",
+              "routability"
+            ]
+          },
+          {
+            "vectorId": "callback.unauthorized-rejected",
+            "category": "callback-authentication",
+            "requirement": "required",
+            "claimAxes": [
+              "deployability-hard-invariant",
+              "routability"
+            ]
+          },
+          {
+            "vectorId": "callback.wrong-pool-rejected-or-isolated",
+            "category": "callback-authentication",
+            "requirement": "required",
+            "claimAxes": [
+              "deployability-hard-invariant",
+              "routability"
+            ]
+          },
+          {
+            "vectorId": "fee.programmable-thirty-bps",
+            "category": "platform-fee",
+            "requirement": "required",
+            "claimAxes": [
+              "deployability-hard-invariant",
+              "platform-fee-conformance",
+              "routability"
+            ]
+          },
+          {
+            "vectorId": "fee.no-bypass",
+            "category": "platform-fee",
+            "requirement": "required",
+            "claimAxes": [
+              "deployability-hard-invariant",
+              "platform-fee-conformance",
+              "routability"
+            ]
+          },
+          {
+            "vectorId": "fee.no-overcharge",
+            "category": "platform-fee",
+            "requirement": "required",
+            "claimAxes": [
+              "deployability-hard-invariant",
+              "platform-fee-conformance",
+              "routability"
+            ]
+          },
+          {
+            "vectorId": "fee.claim-isolation",
+            "category": "platform-fee",
+            "requirement": "required",
+            "claimAxes": [
+              "deployability-hard-invariant",
+              "platform-fee-conformance",
+              "routability"
+            ]
+          },
+          {
+            "vectorId": "custom-accounting.delta-solvency",
+            "category": "custom-accounting",
+            "requirement": "required",
+            "claimAxes": [
+              "deployability-hard-invariant",
+              "liquidity-conformance",
+              "routability"
+            ]
+          },
+          {
+            "vectorId": "custom-accounting.inventory-backing",
+            "category": "custom-accounting",
+            "requirement": "required",
+            "claimAxes": [
+              "deployability-hard-invariant",
+              "liquidity-conformance",
+              "routability"
+            ]
+          },
+          {
+            "vectorId": "custom-accounting.refund",
+            "category": "custom-accounting",
+            "requirement": "required",
+            "claimAxes": [
+              "deployability-hard-invariant",
+              "liquidity-conformance",
+              "routability"
+            ]
+          },
+          {
+            "vectorId": "custom-accounting.withdrawal",
+            "category": "custom-accounting",
+            "requirement": "required",
+            "claimAxes": [
+              "deployability-hard-invariant",
+              "liquidity-conformance",
+              "routability"
+            ]
+          }
+        ],
+        "requirementsSha256": "sha256:3765ed26300322af20f2d0cf4bffa6c37ff01982a9f82057a66675ba0983edf8"
+      },
+      "status": "not_executed",
+      "execution": null,
+      "vectors": [
+        {
+          "vectorId": "swap.zero-for-one.exact-input.multi-size",
+          "category": "swap",
+          "claimAxes": [
+            "routability"
+          ],
+          "status": "not_executed",
+          "evidenceSha256": null,
+          "reasonCode": "BEHAVIOR_RUNNER_NOT_CONFIGURED"
+        },
+        {
+          "vectorId": "swap.zero-for-one.exact-output.multi-size",
+          "category": "swap",
+          "claimAxes": [
+            "routability"
+          ],
+          "status": "not_executed",
+          "evidenceSha256": null,
+          "reasonCode": "BEHAVIOR_RUNNER_NOT_CONFIGURED"
+        },
+        {
+          "vectorId": "swap.one-for-zero.exact-input.multi-size",
+          "category": "swap",
+          "claimAxes": [
+            "routability"
+          ],
+          "status": "not_executed",
+          "evidenceSha256": null,
+          "reasonCode": "BEHAVIOR_RUNNER_NOT_CONFIGURED"
+        },
+        {
+          "vectorId": "swap.one-for-zero.exact-output.multi-size",
+          "category": "swap",
+          "claimAxes": [
+            "routability"
+          ],
+          "status": "not_executed",
+          "evidenceSha256": null,
+          "reasonCode": "BEHAVIOR_RUNNER_NOT_CONFIGURED"
+        },
+        {
+          "vectorId": "swap.second-user",
+          "category": "swap",
+          "claimAxes": [
+            "routability"
+          ],
+          "status": "not_executed",
+          "evidenceSha256": null,
+          "reasonCode": "BEHAVIOR_RUNNER_NOT_CONFIGURED"
+        },
+        {
+          "vectorId": "swap.time-advance",
+          "category": "swap",
+          "claimAxes": [
+            "routability"
+          ],
+          "status": "not_executed",
+          "evidenceSha256": null,
+          "reasonCode": "BEHAVIOR_RUNNER_NOT_CONFIGURED"
+        },
+        {
+          "vectorId": "liquidity.lifecycle.add-remove-withdraw",
+          "category": "liquidity",
+          "claimAxes": [
+            "deployability-hard-invariant",
+            "liquidity-conformance",
+            "routability"
+          ],
+          "status": "not_executed",
+          "evidenceSha256": null,
+          "reasonCode": "BEHAVIOR_RUNNER_NOT_CONFIGURED"
+        },
+        {
+          "vectorId": "callback.permission-mask-and-declaration",
+          "category": "callback-authentication",
+          "claimAxes": [
+            "deployability-hard-invariant",
+            "routability"
+          ],
+          "status": "not_executed",
+          "evidenceSha256": null,
+          "reasonCode": "BEHAVIOR_RUNNER_NOT_CONFIGURED"
+        },
+        {
+          "vectorId": "callback.enabled-entrypoints-and-selectors",
+          "category": "callback-authentication",
+          "claimAxes": [
+            "deployability-hard-invariant",
+            "routability"
+          ],
+          "status": "not_executed",
+          "evidenceSha256": null,
+          "reasonCode": "BEHAVIOR_RUNNER_NOT_CONFIGURED"
+        },
+        {
+          "vectorId": "callback.canonical-pool-manager-only",
+          "category": "callback-authentication",
+          "claimAxes": [
+            "deployability-hard-invariant",
+            "routability"
+          ],
+          "status": "not_executed",
+          "evidenceSha256": null,
+          "reasonCode": "BEHAVIOR_RUNNER_NOT_CONFIGURED"
+        },
+        {
+          "vectorId": "callback.unauthorized-rejected",
+          "category": "callback-authentication",
+          "claimAxes": [
+            "deployability-hard-invariant",
+            "routability"
+          ],
+          "status": "not_executed",
+          "evidenceSha256": null,
+          "reasonCode": "BEHAVIOR_RUNNER_NOT_CONFIGURED"
+        },
+        {
+          "vectorId": "callback.wrong-pool-rejected-or-isolated",
+          "category": "callback-authentication",
+          "claimAxes": [
+            "deployability-hard-invariant",
+            "routability"
+          ],
+          "status": "not_executed",
+          "evidenceSha256": null,
+          "reasonCode": "BEHAVIOR_RUNNER_NOT_CONFIGURED"
+        },
+        {
+          "vectorId": "fee.programmable-thirty-bps",
+          "category": "platform-fee",
+          "claimAxes": [
+            "deployability-hard-invariant",
+            "platform-fee-conformance",
+            "routability"
+          ],
+          "status": "not_executed",
+          "evidenceSha256": null,
+          "reasonCode": "BEHAVIOR_RUNNER_NOT_CONFIGURED"
+        },
+        {
+          "vectorId": "fee.no-bypass",
+          "category": "platform-fee",
+          "claimAxes": [
+            "deployability-hard-invariant",
+            "platform-fee-conformance",
+            "routability"
+          ],
+          "status": "not_executed",
+          "evidenceSha256": null,
+          "reasonCode": "BEHAVIOR_RUNNER_NOT_CONFIGURED"
+        },
+        {
+          "vectorId": "fee.no-overcharge",
+          "category": "platform-fee",
+          "claimAxes": [
+            "deployability-hard-invariant",
+            "platform-fee-conformance",
+            "routability"
+          ],
+          "status": "not_executed",
+          "evidenceSha256": null,
+          "reasonCode": "BEHAVIOR_RUNNER_NOT_CONFIGURED"
+        },
+        {
+          "vectorId": "fee.claim-isolation",
+          "category": "platform-fee",
+          "claimAxes": [
+            "deployability-hard-invariant",
+            "platform-fee-conformance",
+            "routability"
+          ],
+          "status": "not_executed",
+          "evidenceSha256": null,
+          "reasonCode": "BEHAVIOR_RUNNER_NOT_CONFIGURED"
+        },
+        {
+          "vectorId": "custom-accounting.delta-solvency",
+          "category": "custom-accounting",
+          "claimAxes": [
+            "deployability-hard-invariant",
+            "liquidity-conformance",
+            "routability"
+          ],
+          "status": "not_executed",
+          "evidenceSha256": null,
+          "reasonCode": "BEHAVIOR_RUNNER_NOT_CONFIGURED"
+        },
+        {
+          "vectorId": "custom-accounting.inventory-backing",
+          "category": "custom-accounting",
+          "claimAxes": [
+            "deployability-hard-invariant",
+            "liquidity-conformance",
+            "routability"
+          ],
+          "status": "not_executed",
+          "evidenceSha256": null,
+          "reasonCode": "BEHAVIOR_RUNNER_NOT_CONFIGURED"
+        },
+        {
+          "vectorId": "custom-accounting.refund",
+          "category": "custom-accounting",
+          "claimAxes": [
+            "deployability-hard-invariant",
+            "liquidity-conformance",
+            "routability"
+          ],
+          "status": "not_executed",
+          "evidenceSha256": null,
+          "reasonCode": "BEHAVIOR_RUNNER_NOT_CONFIGURED"
+        },
+        {
+          "vectorId": "custom-accounting.withdrawal",
+          "category": "custom-accounting",
+          "claimAxes": [
+            "deployability-hard-invariant",
+            "liquidity-conformance",
+            "routability"
+          ],
+          "status": "not_executed",
+          "evidenceSha256": null,
+          "reasonCode": "BEHAVIOR_RUNNER_NOT_CONFIGURED"
+        }
+      ],
+      "outstandingVectorIds": [
+        "swap.zero-for-one.exact-input.multi-size",
+        "swap.zero-for-one.exact-output.multi-size",
+        "swap.one-for-zero.exact-input.multi-size",
+        "swap.one-for-zero.exact-output.multi-size",
+        "swap.second-user",
+        "swap.time-advance",
+        "liquidity.lifecycle.add-remove-withdraw",
+        "callback.permission-mask-and-declaration",
+        "callback.enabled-entrypoints-and-selectors",
+        "callback.canonical-pool-manager-only",
+        "callback.unauthorized-rejected",
+        "callback.wrong-pool-rejected-or-isolated",
+        "fee.programmable-thirty-bps",
+        "fee.no-bypass",
+        "fee.no-overcharge",
+        "fee.claim-isolation",
+        "custom-accounting.delta-solvency",
+        "custom-accounting.inventory-backing",
+        "custom-accounting.refund",
+        "custom-accounting.withdrawal"
+      ],
+      "claimAxes": {
+        "deployability": {
+          "status": "behavior-hard-invariants-required",
+          "scope": "behavior-only",
+          "requiredVectorIds": [
+            "liquidity.lifecycle.add-remove-withdraw",
+            "callback.permission-mask-and-declaration",
+            "callback.enabled-entrypoints-and-selectors",
+            "callback.canonical-pool-manager-only",
+            "callback.unauthorized-rejected",
+            "callback.wrong-pool-rejected-or-isolated",
+            "fee.programmable-thirty-bps",
+            "fee.no-bypass",
+            "fee.no-overcharge",
+            "fee.claim-isolation",
+            "custom-accounting.delta-solvency",
+            "custom-accounting.inventory-backing",
+            "custom-accounting.refund",
+            "custom-accounting.withdrawal"
+          ],
+          "outstandingVectorIds": [
+            "liquidity.lifecycle.add-remove-withdraw",
+            "callback.permission-mask-and-declaration",
+            "callback.enabled-entrypoints-and-selectors",
+            "callback.canonical-pool-manager-only",
+            "callback.unauthorized-rejected",
+            "callback.wrong-pool-rejected-or-isolated",
+            "fee.programmable-thirty-bps",
+            "fee.no-bypass",
+            "fee.no-overcharge",
+            "fee.claim-isolation",
+            "custom-accounting.delta-solvency",
+            "custom-accounting.inventory-backing",
+            "custom-accounting.refund",
+            "custom-accounting.withdrawal"
+          ]
+        },
+        "platformFeeConformance": {
+          "status": "not_verified",
+          "requiredVectorIds": [
+            "fee.programmable-thirty-bps",
+            "fee.no-bypass",
+            "fee.no-overcharge",
+            "fee.claim-isolation"
+          ],
+          "outstandingVectorIds": [
+            "fee.programmable-thirty-bps",
+            "fee.no-bypass",
+            "fee.no-overcharge",
+            "fee.claim-isolation"
+          ]
+        },
+        "liquidityConformance": {
+          "status": "not_verified",
+          "requiredVectorIds": [
+            "liquidity.lifecycle.add-remove-withdraw",
+            "custom-accounting.delta-solvency",
+            "custom-accounting.inventory-backing",
+            "custom-accounting.refund",
+            "custom-accounting.withdrawal"
+          ],
+          "outstandingVectorIds": [
+            "liquidity.lifecycle.add-remove-withdraw",
+            "custom-accounting.delta-solvency",
+            "custom-accounting.inventory-backing",
+            "custom-accounting.refund",
+            "custom-accounting.withdrawal"
+          ]
+        },
+        "routability": {
+          "status": "not_verified",
+          "requiredVectorIds": [
+            "swap.zero-for-one.exact-input.multi-size",
+            "swap.zero-for-one.exact-output.multi-size",
+            "swap.one-for-zero.exact-input.multi-size",
+            "swap.one-for-zero.exact-output.multi-size",
+            "swap.second-user",
+            "swap.time-advance",
+            "liquidity.lifecycle.add-remove-withdraw",
+            "callback.permission-mask-and-declaration",
+            "callback.enabled-entrypoints-and-selectors",
+            "callback.canonical-pool-manager-only",
+            "callback.unauthorized-rejected",
+            "callback.wrong-pool-rejected-or-isolated",
+            "fee.programmable-thirty-bps",
+            "fee.no-bypass",
+            "fee.no-overcharge",
+            "fee.claim-isolation",
+            "custom-accounting.delta-solvency",
+            "custom-accounting.inventory-backing",
+            "custom-accounting.refund",
+            "custom-accounting.withdrawal"
+          ],
+          "outstandingVectorIds": [
+            "swap.zero-for-one.exact-input.multi-size",
+            "swap.zero-for-one.exact-output.multi-size",
+            "swap.one-for-zero.exact-input.multi-size",
+            "swap.one-for-zero.exact-output.multi-size",
+            "swap.second-user",
+            "swap.time-advance",
+            "liquidity.lifecycle.add-remove-withdraw",
+            "callback.permission-mask-and-declaration",
+            "callback.enabled-entrypoints-and-selectors",
+            "callback.canonical-pool-manager-only",
+            "callback.unauthorized-rejected",
+            "callback.wrong-pool-rejected-or-isolated",
+            "fee.programmable-thirty-bps",
+            "fee.no-bypass",
+            "fee.no-overcharge",
+            "fee.claim-isolation",
+            "custom-accounting.delta-solvency",
+            "custom-accounting.inventory-backing",
+            "custom-accounting.refund",
+            "custom-accounting.withdrawal"
+          ]
+        },
+        "featured": {
+          "status": "external-evidence-required",
+          "derivedFromBehaviorEvidence": false
+        },
+        "finality": {
+          "status": "independent-evidence-required",
+          "derivedFromBehaviorEvidence": false
+        }
+      }
+    },
+    "productTruthAxes": {
+      "deployment": {
+        "status": "eligible",
+        "basis": "static-admission-only",
+        "transactionExecuted": false
+      },
+      "trading": {
+        "status": "not_verified",
+        "basis": "runtime-behavior-evidence-required"
+      },
+      "platform_fee_evidence": {
+        "status": "not_verified",
+        "basis": "exact-fee-behavior-evidence-required"
+      },
+      "source_verification": {
+        "status": "not_verified",
+        "basis": "provider-exact-match-required"
+      },
+      "indexing": {
+        "status": "not_indexed",
+        "basis": "finalized-router-identity-required"
+      },
+      "featured": {
+        "status": "not_featured",
+        "basis": "separate-product-evidence-required"
+      }
+    },
+    "hardBlockFindingCodes": [],
+    "needsEvidenceFindingCodes": [
+      "SOURCE_EXTERNAL_DEPENDENCY_SURFACE",
+      "SOURCE_LIQUIDITY_LOCK_OR_CUSTODY_SURFACE",
+      "SOURCE_MUTABLE_TAX_OR_FEE_SURFACE",
+      "V4_CALLBACK_AUTHENTICATION_MISSING",
+      "V4_CALLBACK_AUTHENTICATION_REVIEW_REQUIRED"
+    ],
+    "warningFindingCodes": [
+      "INITIAL_BUY_NOT_ESTABLISHED"
+    ],
+    "reviewReadiness": {
+      "timing": {
+        "schemaVersion": "programmable.review-timing.v4",
+        "checkedAt": "2026-11-24T10:45:53.936Z",
+        "requiredUntil": "2026-11-26T10:45:53.000Z",
+        "deadlines": [],
+        "decodedCalls": 1,
+        "undecodedCalls": 0
+      },
+      "deadlineRepair": "Approval refreshes only the platform permit. It cannot change timestamps embedded in your initializer or action calldata. Allow 24 hours for review plus 24 hours to launch; use a contract-compatible future deadline, then repack and submit with a new idempotency key. Contracts that require a five-minute deadline need an execution-time deadline design before review.",
+      "fees": {
+        "schemaVersion": "programmable.review-fees.v4",
+        "policyVersion": "programmable.ethereum-routed-native-fee.v4",
+        "platformRoutedRateBps": 30,
+        "recipient": "0x9F5856A3578Faba96A6E8Dfd9C10563A1E598f62",
+        "buyBasis": "funded-native-input",
+        "sellBasis": "gross-native-output-credit",
+        "currency": "native-ETH",
+        "poolFeeWaiver": {
+          "applicantAssertionsAccepted": false,
+          "basis": "authenticated-gross-native",
+          "currency": "native-ETH",
+          "hook": "AutomaticProtectedNative30HookV1",
+          "mode": "pool_enforced_native30",
+          "proof": "exact-runtime-and-trade-accrual",
+          "recipient": "0x9F5856A3578Faba96A6E8Dfd9C10563A1E598f62",
+          "rounding": "ceil-per-trade",
+          "routedRateBps": 0,
+          "vault": "AutomaticNativeFeeVaultV1"
+        },
+        "customHookFees": "not_measured",
+        "combinedTotal": null,
+        "measuredFeeEvidence": "required",
+        "explanation": "A custom hook fee does not automatically waive the router fee. Total cost is the route fee plus hook and pool fees. The quote must prove an eligible pool fee before setting the router fee to zero. Review approval alone does not establish collection or a waiver."
+      },
+      "preparation": {
+        "schemaVersion": "programmable.review-preparation.v1",
+        "authority": "review-hints-only",
+        "sourceChecked": true,
+        "notes": [
+          {
+            "code": "INITIAL_BUY_NOT_ESTABLISHED",
+            "location": "/graphBundle",
+            "observed": "no decoded initial-buy amount",
+            "expected": "bound buy call and observed token output",
+            "message": "The initial buy is not established by these declarations. Identify the buy call and prove its input and output in the launch simulation. Native value, pool creation or a custom function name alone does not prove a purchase."
+          }
+        ],
+        "initialBuy": {
+          "status": "not_established",
+          "amounts": []
+        }
+      }
+    },
+    "staticBaseline": {
+      "schemaVersion": "programmable.custom-launch-static-baseline-gate.v1",
+      "gateVersion": "1.0.0",
+      "evidenceAuthority": "deterministic-exact-source-and-runtime-scan",
+      "disposition": "action_required",
+      "approvalAuthority": false,
+      "safetyClaim": false,
+      "exactSourceGraphSha256": "sha256:cb8a460ce0593c4362d039eae8ab6b09ef3a8ce0cd29585fe4bc5b6129eab336",
+      "verificationBundleSha256": "sha256:96d9010ecca2355e35916098547aae3d0b13b6695d6cef2deab3ffcfe007ff37",
+      "findings": [
+        {
+          "code": "SOURCE_EXTERNAL_DEPENDENCY_SURFACE",
+          "disposition": "action_required",
+          "evidenceAuthority": "deterministic-exact-source-and-runtime-scan",
+          "targetIds": [
+            "initializer"
+          ],
+          "detail": "Exact source names an external price, oracle, sequencer, or dependency surface that requires codehash, liveness, staleness, and trust review.",
+          "source": {
+            "compilationUnitId": "launch-protection-v1",
+            "sourcePath": "src/launch-protection/ProtectedNativeInitializerV1.sol",
+            "contractName": "ProtectedNativeInitializerV1",
+            "line": 47,
+            "column": 18
+          },
+          "runtime": null
+        },
+        {
+          "code": "SOURCE_LIQUIDITY_LOCK_OR_CUSTODY_SURFACE",
+          "disposition": "action_required",
+          "evidenceAuthority": "deterministic-exact-source-and-runtime-scan",
+          "targetIds": [
+            "hook"
+          ],
+          "source": {
+            "compilationUnitId": "launch-protection-v1",
+            "sourcePath": "src/automatic-platform-fees-v2/AutomaticProtectedNative30HookV2.sol",
+            "contractName": "AutomaticProtectedNative30HookV2",
+            "line": 379,
+            "column": 9
+          },
+          "runtime": null,
+          "detail": "Compiled reachable runtime mint(address,uint256,uint256) effect requires exact capital ownership, recipient, and lifecycle evidence. Fee collection, user redemption, and constrained rebalancing remain valid mechanisms; this effect alone does not prove an unsafe withdrawal."
+        },
+        {
+          "code": "SOURCE_LIQUIDITY_LOCK_OR_CUSTODY_SURFACE",
+          "disposition": "action_required",
+          "evidenceAuthority": "deterministic-exact-source-and-runtime-scan",
+          "targetIds": [
+            "hook"
+          ],
+          "source": {
+            "compilationUnitId": "launch-protection-v1",
+            "sourcePath": "src/automatic-platform-fees-v2/AutomaticProtectedNative30HookV2.sol",
+            "contractName": "AutomaticProtectedNative30HookV2",
+            "line": 384,
+            "column": 13
+          },
+          "runtime": null,
+          "detail": "Compiled reachable runtime mint(address,uint256,uint256) effect requires exact capital ownership, recipient, and lifecycle evidence. Fee collection, user redemption, and constrained rebalancing remain valid mechanisms; this effect alone does not prove an unsafe withdrawal."
+        },
+        {
+          "code": "SOURCE_LIQUIDITY_LOCK_OR_CUSTODY_SURFACE",
+          "disposition": "action_required",
+          "evidenceAuthority": "deterministic-exact-source-and-runtime-scan",
+          "targetIds": [
+            "initializer"
+          ],
+          "source": {
+            "compilationUnitId": "launch-protection-v1",
+            "sourcePath": "lib/openzeppelin-contracts/contracts/token/ERC20/utils/SafeERC20.sol",
+            "contractName": "ProtectedNativeInitializerV1",
+            "line": 176,
+            "column": 9
+          },
+          "runtime": null,
+          "detail": "Compiled reachable runtime assembly CALL effect requires exact capital ownership, recipient, and lifecycle evidence. Fee collection, user redemption, and constrained rebalancing remain valid mechanisms; this effect alone does not prove an unsafe withdrawal."
+        },
+        {
+          "code": "SOURCE_LIQUIDITY_LOCK_OR_CUSTODY_SURFACE",
+          "disposition": "action_required",
+          "evidenceAuthority": "deterministic-exact-source-and-runtime-scan",
+          "targetIds": [
+            "initializer"
+          ],
+          "source": {
+            "compilationUnitId": "launch-protection-v1",
+            "sourcePath": "src/launch-protection/ProtectedNativeInitializerV1.sol",
+            "contractName": "ProtectedNativeInitializerV1",
+            "line": 162,
+            "column": 32
+          },
+          "runtime": null,
+          "detail": "Compiled reachable runtime modifyLiquidity((address,address,uint24,int24,address),(int24,int24,int256,bytes32),bytes) effect with unknown liquidity delta requires exact capital ownership, recipient, and lifecycle evidence. Fee collection, user redemption, and constrained rebalancing remain valid mechanisms; this effect alone does not prove an unsafe withdrawal."
+        },
+        {
+          "code": "SOURCE_LIQUIDITY_LOCK_OR_CUSTODY_SURFACE",
+          "disposition": "action_required",
+          "evidenceAuthority": "deterministic-exact-source-and-runtime-scan",
+          "targetIds": [
+            "initializer"
+          ],
+          "source": {
+            "compilationUnitId": "launch-protection-v1",
+            "sourcePath": "src/launch-protection/ProtectedNativeInitializerV1.sol",
+            "contractName": "ProtectedNativeInitializerV1",
+            "line": 176,
+            "column": 9
+          },
+          "runtime": null,
+          "detail": "Compiled reachable runtime take(address,address,uint256) effect requires exact capital ownership, recipient, and lifecycle evidence. Fee collection, user redemption, and constrained rebalancing remain valid mechanisms; this effect alone does not prove an unsafe withdrawal."
+        },
+        {
+          "code": "SOURCE_MUTABLE_TAX_OR_FEE_SURFACE",
+          "disposition": "action_required",
+          "evidenceAuthority": "deterministic-exact-source-and-runtime-scan",
+          "targetIds": [
+            "hook"
+          ],
+          "detail": "Compiled fee sink beforeSwap-fee-override has no proven final immutable ceiling in the supported analysis subset. Exact economics and authority evidence are required; state and setter names do not establish a bound.",
+          "source": {
+            "compilationUnitId": "launch-protection-v1",
+            "sourcePath": "lib/openzeppelin-uniswap-hooks/src/base/BaseHook.sol",
+            "contractName": "AutomaticProtectedNative30HookV2",
+            "line": 225,
+            "column": 5
+          },
+          "runtime": null
+        },
+        {
+          "code": "SOURCE_MUTABLE_TAX_OR_FEE_SURFACE",
+          "disposition": "action_required",
+          "evidenceAuthority": "deterministic-exact-source-and-runtime-scan",
+          "targetIds": [
+            "hook"
+          ],
+          "detail": "Compiled fee sink unresolved-execution has no proven final immutable ceiling in the supported analysis subset. Exact economics and authority evidence are required; state and setter names do not establish a bound.",
+          "source": {
+            "compilationUnitId": "launch-protection-v1",
+            "sourcePath": "src/automatic-platform-fees-v2/AutomaticProtectedNative30HookV2.sol",
+            "contractName": "AutomaticProtectedNative30HookV2",
+            "line": 48,
+            "column": 1
+          },
+          "runtime": null
+        },
+        {
+          "code": "SOURCE_MUTABLE_TAX_OR_FEE_SURFACE",
+          "disposition": "action_required",
+          "evidenceAuthority": "deterministic-exact-source-and-runtime-scan",
+          "targetIds": [
+            "hook"
+          ],
+          "detail": "Mutable tax or fee storage requires bounded economics and routing review.",
+          "source": {
+            "compilationUnitId": "launch-protection-v1",
+            "sourcePath": "src/automatic-platform-fees-v2/AutomaticProtectedNative30HookV2.sol",
+            "contractName": "AutomaticProtectedNative30HookV2",
+            "line": 89,
+            "column": 20
+          },
+          "runtime": null
+        },
+        {
+          "code": "V4_CALLBACK_AUTHENTICATION_MISSING",
+          "disposition": "action_required",
+          "evidenceAuthority": "deterministic-exact-source-and-runtime-scan",
+          "targetIds": [
+            "initializer"
+          ],
+          "detail": "unlockCallback does not expose a statically proven pre-effect PoolManager authentication path.",
+          "source": {
+            "compilationUnitId": "launch-protection-v1",
+            "sourcePath": "src/launch-protection/ProtectedNativeInitializerV1.sol",
+            "contractName": "ProtectedNativeInitializerV1",
+            "line": 140,
+            "column": 5
+          },
+          "runtime": null
+        },
+        {
+          "code": "V4_CALLBACK_AUTHENTICATION_REVIEW_REQUIRED",
+          "disposition": "action_required",
+          "evidenceAuthority": "deterministic-exact-source-and-runtime-scan",
+          "targetIds": [
+            "hook"
+          ],
+          "detail": "beforeInitialize requires an unconditional compiler-bound canonical PoolManager guard before effects.",
+          "source": {
+            "compilationUnitId": "launch-protection-v1",
+            "sourcePath": "src/automatic-platform-fees-v2/AutomaticProtectedNative30HookV2.sol",
+            "contractName": "AutomaticProtectedNative30HookV2",
+            "line": 48,
+            "column": 1
+          },
+          "runtime": null
+        },
+        {
+          "code": "V4_CALLBACK_AUTHENTICATION_REVIEW_REQUIRED",
+          "disposition": "action_required",
+          "evidenceAuthority": "deterministic-exact-source-and-runtime-scan",
+          "targetIds": [
+            "hook"
+          ],
+          "detail": "beforeSwap requires an unconditional compiler-bound canonical PoolManager guard before effects.",
+          "source": {
+            "compilationUnitId": "launch-protection-v1",
+            "sourcePath": "src/automatic-platform-fees-v2/AutomaticProtectedNative30HookV2.sol",
+            "contractName": "AutomaticProtectedNative30HookV2",
+            "line": 48,
+            "column": 1
+          },
+          "runtime": null
+        },
+        {
+          "code": "V4_CALLBACK_AUTHENTICATION_REVIEW_REQUIRED",
+          "disposition": "action_required",
+          "evidenceAuthority": "deterministic-exact-source-and-runtime-scan",
+          "targetIds": [
+            "hook"
+          ],
+          "detail": "afterSwap requires an unconditional compiler-bound canonical PoolManager guard before effects.",
+          "source": {
+            "compilationUnitId": "launch-protection-v1",
+            "sourcePath": "src/automatic-platform-fees-v2/AutomaticProtectedNative30HookV2.sol",
+            "contractName": "AutomaticProtectedNative30HookV2",
+            "line": 48,
+            "column": 1
+          },
+          "runtime": null
+        }
+      ],
+      "limitations": [
+        "Static indicators do not prove that a contract is safe, non-malicious, or economically solvent.",
+        "No static result replaces exact fork simulation of buys, sells, liquidity lifecycle, callbacks, or fee routing.",
+        "A no-static-finding result only permits later conformance review; it is never an approval or audit."
+      ],
+      "reportSha256": "sha256:0e415452d33276eea9104f4a92cbabcc293e40964b814ea045a5a7291fdd6c94"
+    },
+    "remediations": [],
+    "quotaConsumed": false,
+    "nonceAllocated": false,
+    "persisted": false,
+    "walletSignatureRequiredLater": true,
+    "walletBroadcastByService": false
+  },
+  "disposition": "needs_evidence",
+  "launchEligibility": {
+    "deployable": true,
+    "routable": false,
+    "featured": false
+  },
+  "evidenceTier": "governed_external_trust",
+  "hardBlockFindingCodes": [],
+  "needsEvidenceFindingCodes": [
+    "SOURCE_EXTERNAL_DEPENDENCY_SURFACE",
+    "SOURCE_LIQUIDITY_LOCK_OR_CUSTODY_SURFACE",
+    "SOURCE_MUTABLE_TAX_OR_FEE_SURFACE",
+    "V4_CALLBACK_AUTHENTICATION_MISSING",
+    "V4_CALLBACK_AUTHENTICATION_REVIEW_REQUIRED"
+  ],
+  "warningFindingCodes": [
+    "INITIAL_BUY_NOT_ESTABLISHED"
+  ],
+  "remediations": []
+}
