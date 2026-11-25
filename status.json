@@ -1,0 +1,366 @@
+{
+  "httpStatus": 200,
+  "stopped": true,
+  "terminal": true,
+  "reviewPending": false,
+  "reviewActionRequired": false,
+  "walletHandoffReady": false,
+  "walletHandoffStage": null,
+  "resource": {
+    "schemaVersion": "programmable.custom-launch.v3",
+    "launchId": "a2f02324-9523-465f-86e2-497ee775a1f1",
+    "requestId": "a2f02324-9523-465f-86e2-497ee775a1f1",
+    "onchainLaunchId": null,
+    "routeId": "custom-launch:create:v3",
+    "launchProfileVersion": "3.6.0",
+    "ownerWallet": "0xa340b018f10bce89397b3aee4476cfe2f257d46d",
+    "status": "failed",
+    "requestHash": "sha256:41e3f5c2cc84277ccf13a0a2e8b350a19785252051c994ef6c91d997918669dd",
+    "launchProfileHash": "sha256:8524be34f2fe06f837854edba747f1caa722da1b9a3240b3b3ecf2fc5e3ea7bb",
+    "launchIntentHash": "sha256:b288de25e21aad65151509055b6d89e8ee9ea4d446fb8b59c07ed7f2dcdd0983",
+    "fundingIntentHash": null,
+    "projectMetadata": {
+      "schemaVersion": "programmable.project-metadata.v1",
+      "token": {
+        "name": "Yohaku",
+        "symbol": "YOHA"
+      },
+      "presentation": {
+        "schemaVersion": "programmable.launch-presentation-draft.v1",
+        "description": "Yohaku is the Japanese principle of intentional space, applied onchain: a fixed-supply Ethereum asset with no team allocation, immutable fees and liquidity locked in perpetuity.",
+        "image": {
+          "uri": "https://www.yohamarket.xyz/token.png",
+          "contentSha256": "sha256:db5618755321a31a0bb5b1d2a5113dbe100765d4c167de44855dbdbc7d703862",
+          "mediaType": "image/png",
+          "byteLength": 59328,
+          "width": 1000,
+          "height": 1000
+        },
+        "links": [
+          {
+            "kind": "website",
+            "uri": "https://www.yohamarket.xyz/"
+          },
+          {
+            "kind": "x",
+            "uri": "https://x.com/yoha_market"
+          }
+        ]
+      },
+      "tokenMetadataBinding": {
+        "schemaVersion": "programmable.project-token-metadata-binding.v1",
+        "tokenTargetId": "token",
+        "declarationBinding": "request-and-launch-id",
+        "standardReadModel": {
+          "name": true,
+          "symbol": true
+        },
+        "name": {
+          "staticSource": "constructor-argument",
+          "argumentIndex": 0,
+          "argumentName": "name_"
+        },
+        "symbol": {
+          "staticSource": "constructor-argument",
+          "argumentIndex": 1,
+          "argumentName": "symbol_"
+        },
+        "postDeploymentReadback": "required"
+      }
+    },
+    "projectMetadataHash": "sha256:114eddae83a84c2185b6e1e05807cf0950f1d184d4b00d4900677d8a3904a033",
+    "liquidityIntent": {
+      "model": "launch-seeded-concentrated-liquidity",
+      "declaredLaunchState": "assessment_required",
+      "binding": "explicit-request-hash"
+    },
+    "createdAt": "2026-11-24T10:46:13.007Z",
+    "updatedAt": "2026-11-25T12:55:02.242Z",
+    "output": null,
+    "failure": {
+      "code": "LAUNCH_WORK_EXPIRED",
+      "message": "The direct-native launch could not be completed.",
+      "retryable": false,
+      "remediations": []
+    },
+    "lifecycleQueue": {
+      "schemaVersion": "programmable.custom-launch-lifecycle-queue.v3",
+      "state": "expired",
+      "reason": "operator-retry",
+      "generation": 2,
+      "attemptCount": 2,
+      "pollAfterSeconds": null,
+      "nextAttemptAt": null,
+      "leaseExpiresAt": null,
+      "workExpiresAt": "2026-11-25T12:55:01.969Z",
+      "lastErrorCode": "LAUNCH_WORK_EXPIRED",
+      "updatedAt": "2026-11-25T12:55:02.232Z",
+      "polling": {
+        "method": "GET",
+        "path": "/v3/custom-launches/a2f02324-9523-465f-86e2-497ee775a1f1"
+      }
+    },
+    "manualReview": {
+      "tradeChecks": {
+        "scope": "operator-local-fork-exact-scenario",
+        "checks": [
+          {
+            "fee": {
+              "asset": "0x0000000000000000000000000000000000000000",
+              "status": "passed",
+              "observed": "35623889505",
+              "rounding": "ceil",
+              "otherFees": "558107602231",
+              "recipient": "0x9F5856A3578Faba96A6E8Dfd9C10563A1E598f62",
+              "grossBasis": "11874629834706",
+              "expectedCeil": "35623889505",
+              "expectedFloor": "35623889504"
+            },
+            "side": "buy",
+            "input": "11874629834706",
+            "output": "1112601578277549321722",
+            "status": "passed",
+            "transactionHash": "0x8372867fb5c1e920186341025ec55ea9f51400aeb5160fee633bdbbda7282a22"
+          },
+          {
+            "fee": {
+              "asset": "0x0000000000000000000000000000000000000000",
+              "status": "passed",
+              "observed": "16921356929",
+              "rounding": "ceil",
+              "otherFees": "265101258553",
+              "recipient": "0x9F5856A3578Faba96A6E8Dfd9C10563A1E598f62",
+              "grossBasis": "5640452309622",
+              "expectedCeil": "16921356929",
+              "expectedFloor": "16921356928"
+            },
+            "side": "sell",
+            "input": "556300789138774660861",
+            "output": "5358429694140",
+            "status": "passed",
+            "transactionHash": "0x3a46d8883e1108368ae0f5d5d0f3ce40f354239427ae6086ee6471815486d8c5"
+          }
+        ],
+        "status": "passed",
+        "chainId": "1",
+        "poolKey": {
+          "fee": 0,
+          "hooks": "0xc5fef0555d70d77edadcE2a7B2b1cF87863f60Cc",
+          "currency0": "0x0000000000000000000000000000000000000000",
+          "currency1": "0xabDAaB65D5B93CD3092D4EF92E090C41c691A4cE",
+          "tickSpacing": 60
+        },
+        "feeBasis": "native_leg",
+        "reviewId": "14663bc7-24b0-4723-8ac6-f61312db6200",
+        "checkedAt": "2026-11-24T12:54:46.603Z",
+        "subjectHash": "sha256:c0c4283bb6d391544e6a8cf2f0c067b414ca9025b52ec4584635bf671adc2cdf",
+        "reportSha256": "sha256:03e0240a6e2edb52841f9b970bf728b17081723ee7a348b73ac50c3adb8017cf",
+        "feeCollection": "pool",
+        "forkBlockHash": "0xd5969a2745c9f352eb2e2b0badb119049c591fbd3576a3cf8572e88fbaa7badf",
+        "schemaVersion": "programmable.review-trade-report.v4",
+        "digestEncoding": "canonical-json-v1",
+        "platformFeeBps": 30,
+        "scenarioSha256": "sha256:15f0b584fef5abdcbdc5ea116851433887ea62efc97528bc89ef532ade3ef075",
+        "forkBlockNumber": "26485149",
+        "feePolicyVersion": "programmable.custom-launch-pool-fee.v1",
+        "launchProtection": {
+          "status": "passed",
+          "chainId": "1",
+          "capBasis": "cumulative-recipient-inflow",
+          "reviewId": "14663bc7-24b0-4723-8ac6-f61312db6200",
+          "developer": "0xa340b018F10BCE89397B3AEE4476cfe2F257D46D",
+          "scenarios": [
+            {
+              "id": "initial-buy-and-usd-floor",
+              "status": "passed"
+            },
+            {
+              "id": "two-percent-cumulative-inflow",
+              "status": "passed"
+            },
+            {
+              "id": "transfer-does-not-reset-cap",
+              "status": "passed"
+            },
+            {
+              "id": "dev-and-exempt-wallet-cap",
+              "status": "passed"
+            },
+            {
+              "id": "five-minute-boundary",
+              "status": "passed"
+            },
+            {
+              "id": "thirty-second-fee-decay",
+              "status": "passed"
+            },
+            {
+              "id": "fixed-six-wallet-exemptions",
+              "status": "passed"
+            },
+            {
+              "id": "spoofed-router-rejected",
+              "status": "passed"
+            },
+            {
+              "id": "stale-price-rejected",
+              "status": "passed"
+            },
+            {
+              "id": "sell-remains-available",
+              "status": "passed"
+            },
+            {
+              "id": "locked-liquidity-and-platform-tax-custody",
+              "status": "passed"
+            },
+            {
+              "id": "cumulative-buyer-cap-and-redirected-delivery",
+              "status": "passed"
+            }
+          ],
+          "components": [
+            {
+              "role": "token",
+              "address": "0xabDAaB65D5B93CD3092D4EF92E090C41c691A4cE",
+              "runtimeCodeHash": "0x2ed449966710b6fa35569fd3419d51fb4fefb8e9a1d4782c9822d20711027aba"
+            },
+            {
+              "role": "hook",
+              "address": "0xc5fef0555d70d77edadcE2a7B2b1cF87863f60Cc",
+              "runtimeCodeHash": "0xfcfee7e5ce68ca564a988f1ec4dcaf887705b2dc38f55ed3ce03af7656cb49e6"
+            },
+            {
+              "role": "initializer",
+              "address": "0x2e11CF761b34301e451a322b8457f3783C8Bed39",
+              "runtimeCodeHash": "0x35d079c6168da8a4d9b19417b1de636e3a540fefed3db6c30e92b0c75242904e"
+            },
+            {
+              "role": "module",
+              "address": "0x3599879e2ef083900c044406974782e4837cba54",
+              "runtimeCodeHash": "0x3374bd5e098908bc6198c571cd71b53c73ac920b555ebe2fdcf0b37a24d664b5",
+              "constructorDeployment": {
+                "kind": "create",
+                "nonce": "2",
+                "creatorTargetId": "hook",
+                "creatorRuntimeCodeHash": "0xfcfee7e5ce68ca564a988f1ec4dcaf887705b2dc38f55ed3ce03af7656cb49e6"
+              }
+            },
+            {
+              "role": "feeVault",
+              "address": "0xa5c3D9cA44A8271fa17947aF885DE7CB364f5cbc",
+              "runtimeCodeHash": "0x94f77092c1c0c5d6942c0aee0031d8e2768bff1950decb567b12cdb6b3993dee",
+              "constructorDeployment": {
+                "kind": "create",
+                "nonce": "1",
+                "creatorTargetId": "hook",
+                "creatorRuntimeCodeHash": "0xfcfee7e5ce68ca564a988f1ec4dcaf887705b2dc38f55ed3ce03af7656cb49e6"
+              }
+            },
+            {
+              "role": "openingTaxVault",
+              "address": "0xAfeB0f19bAF0C65a8a3B6E1358017C0A2f190A6d",
+              "runtimeCodeHash": "0x583582cbf6409190a8a87f15dc4612afa4566047d8c3a90d3053d11323989fbb",
+              "constructorDeployment": {
+                "kind": "create",
+                "nonce": "3",
+                "creatorTargetId": "hook",
+                "creatorRuntimeCodeHash": "0xfcfee7e5ce68ca564a988f1ec4dcaf887705b2dc38f55ed3ce03af7656cb49e6"
+              }
+            }
+          ],
+          "openingFdv": {
+            "numerator": "17226",
+            "denominator": "1"
+          },
+          "seedCustody": {
+            "salt": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "owner": "0x2e11CF761b34301e451a322b8457f3783C8Bed39",
+            "policy": "launch-protection-v1",
+            "poolId": "0x868ffd472b7465cf657adc201c2ea4bae53bc1e203dbd30a2f1a52a171e83a6b",
+            "principal": "100682371748654767655704",
+            "tickLower": -887220,
+            "tickUpper": 184080,
+            "positionId": "0x1c3f89e206669bdb138f7f92d3f08d9642bd4b3680b80c938eff4694e542db7f",
+            "feeClaimsPreservePrincipal": true
+          },
+          "subjectHash": "sha256:c0c4283bb6d391544e6a8cf2f0c067b414ca9025b52ec4584635bf671adc2cdf",
+          "buyerCapBasis": "cumulative-authenticated-buys",
+          "buyerLimitBps": 200,
+          "initialSupply": "1000000000000000000000000000",
+          "minimumFdvUsd": "15000",
+          "policyVersion": "programmable.launch-protection.v1",
+          "schemaVersion": "programmable.launch-protection-evidence.v1",
+          "exemptionScope": "additional-opening-fee-only",
+          "walletLimitBps": 200,
+          "buyerTokenLimit": "20000000000000000000000000",
+          "walletTokenLimit": "20000000000000000000000000",
+          "buyerLimitSeconds": 300,
+          "openingFeeSeconds": 30,
+          "openingTotalFeePpm": 990000,
+          "walletLimitSeconds": 300,
+          "openingTaxRecipient": "0x9F5856A3578Faba96A6E8Dfd9C10563A1E598f62",
+          "openingFeeDestination": "fixed-platform-treasury",
+          "additionalTaxExemptWallets": []
+        },
+        "automaticPlatformFees": {
+          "router": null,
+          "status": "passed",
+          "trades": [
+            {
+              "paid": "35623889505",
+              "side": "buy",
+              "recorded": "35623889505",
+              "nativePaid": "35623889505",
+              "pendingAfter": "0",
+              "buybackAllocated": "0"
+            },
+            {
+              "paid": "16921356929",
+              "side": "sell",
+              "recorded": "16921356929",
+              "nativePaid": "16921356929",
+              "pendingAfter": "0",
+              "buybackAllocated": "0"
+            }
+          ],
+          "chainId": "1",
+          "policyId": "programmable.automatic-platform-fees.v2",
+          "recipient": "0x9F5856A3578Faba96A6E8Dfd9C10563A1E598f62",
+          "buybackBps": 0,
+          "teamWallet": "0x9F5856A3578Faba96A6E8Dfd9C10563A1E598f62",
+          "activationTime": "2026-11-16T13:28:21.611Z",
+          "platformFeeBps": 30,
+          "nativePayoutBps": 10000,
+          "openingSurcharge": {
+            "paid": "5953143798922",
+            "recorded": "5953143798922",
+            "recipient": "0x9F5856A3578Faba96A6E8Dfd9C10563A1E598f62",
+            "nativePaid": "5953143798922",
+            "pendingAfter": "0",
+            "buybackAllocated": "0"
+          }
+        },
+        "mainnetTransactionsSent": false
+      },
+      "discussion": [],
+      "supersededBy": null,
+      "schemaVersion": "programmable.custom-launch-manual-review.v1",
+      "reviewId": "14663bc7-24b0-4723-8ac6-f61312db6200",
+      "subjectHash": "sha256:c0c4283bb6d391544e6a8cf2f0c067b414ca9025b52ec4584635bf671adc2cdf",
+      "chainId": "1",
+      "controller": "0xa340b018f10bce89397b3aee4476cfe2f257d46d",
+      "state": "expired",
+      "revision": 4,
+      "submittedAt": "2026-11-24T10:46:13.453+00:00",
+      "approvedAt": "2026-11-24T12:55:01.969+00:00",
+      "expiresAt": "2026-11-25T12:55:01.969+00:00",
+      "reason": "Exact submitted source and deployment graph verified. Opening protections, trades, platform fee delivery and seeded liquidity custody passed for this submission.",
+      "requiresRepack": false,
+      "reviewDueAt": "2026-11-25T10:46:13.453+00:00",
+      "reviewOverdue": false,
+      "launchRequestedAt": null,
+      "launchDeadline": null
+    }
+  }
+}
